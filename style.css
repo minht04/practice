@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.wrapper {
+  max-width: 960px;
+  padding: 0 4%;
+  margin: 0 auto;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -11,9 +17,9 @@ header {
 }
 
 header img {
-  margin-left: 150px;
+  margin-top: 10px;
   width: 120px;
-  height: 60px;
+  height: 40px;
 }
 
 header a {
@@ -23,12 +29,18 @@ header a {
 
 header ul {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
   list-style: none;
-  padding: 20px 80px;
+  padding: 20px 30px;
 }
 
 header li {
-  padding-right: 40px;
+  padding-left: 30px;
+}
+
+.main-visual {
+  background-image: url(img/mainvisual.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
 }
