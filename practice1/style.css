@@ -96,3 +96,35 @@ footer {
   line-height: 80px;
   font-size: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .main-visual {
+    height: 300px;
+  }
+  .about-image {
+    display: flex;
+    flex-flow: column;
+  }
+  .about .content {
+    display: flex;
+    flex-flow: column;
+  }
+  .about .content-title {
+    margin-top: 30px;
+  }
+
+  .bicycle-box {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .bicycle-image {
+    width: 100%;
+  }
+
+  .bicycle-item .text {
+    margin: 20px 0;
+  }
+
+
+}
